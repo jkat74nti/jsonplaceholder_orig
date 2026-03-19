@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  json-placeholder:
+    image: node:20-alpine
+    container_name: json-api
+    working_dir: /usr/src/app
+    command: sh -c "npm install -g json-server && json-server --watch db.json --host 0.0.0.0"
+    ports:
+      - "3000:3000"
+  volumes:
+    - ./db.json:/usr/src/app/db.json
+  restart: always
