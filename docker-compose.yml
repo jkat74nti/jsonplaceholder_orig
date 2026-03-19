@@ -7,6 +7,6 @@ services:
     command: sh -c "npm install -g json-server && json-server --watch db.json --host 0.0.0.0"
     ports:
       - "3000:3000"
-  volumes:
-    - ./db.json:/usr/src/app/db.json
-  restart: always
+    volumes:
+      - ./db.json:/usr/src/app/db.json
+    restart: always
