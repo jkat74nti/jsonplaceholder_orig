@@ -2,7 +2,7 @@
 docker build -t my-json-server .
 
 3. Run the Container
-docker run -d -p 3000:3000 --name json-api my-json-server
+docker run -d -p 3001:3000 --name json_placeholder_1 jkatnti/json_placeholder_orig:skola
 
 Your API will be accessible at http://localhost:3000. 
 
