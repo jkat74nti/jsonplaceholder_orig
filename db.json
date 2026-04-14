@@ -1,100 +1,229 @@
 {
   "posts": [
-    { "id": 1, "userId": 1, "title": "Welcome to the 2026 Tech Forum", "body": "This is the first post on our new platform. We are excited to have you here!" },
-    { "id": 2, "userId": 2, "title": "Best VS Code Extensions in 2026", "body": "What are your must-have extensions this year? I'm looking for better AI integration." },
-    { "id": 3, "userId": 5, "title": "React vs. Vue: The Eternal Debate", "body": "With the latest updates, which framework do you find more productive for rapid prototyping?" },
-    { "id": 4, "userId": 10, "title": "Dark Mode vs Light Mode", "body": "Let's settle this once and for all. Which one is better for long coding sessions?" },
-    { "id": 5, "userId": 3, "title": "JSON Schema Best Practices", "body": "I'm struggling with nested references in my schemas. Any tips for keeping them clean?" },
-    { "id": 6, "userId": 1, "title": "My First Python Script", "body": "I just wrote a script that automates my email sorting. It feels like magic!" },
-    { "id": 7, "userId": 2, "title": "TypeScript 6.0 Features", "body": "The new decorators are game-changers. Has anyone tried them in production yet?" },
-    { "id": 8, "userId": 4, "title": "Remote Work Trends", "body": "Are companies still pushing for RTO (Return to Office) in your area, or is remote here to stay?" },
-    { "id": 9, "userId": 8, "title": "SQL vs NoSQL for Forum Data", "body": "For a forum structure like this, would you prefer a relational database or a document store?" },
-    { "id": 10, "userId": 9, "title": "Coffee Recommendations", "body": "What's fueling your late-night debugging sessions lately? I'm into light roasts." },
-    { "id": 11, "userId": 7, "title": "Cybersecurity for Beginners", "body": "What are the first three things a junior dev should learn about web security?" },
-    { "id": 12, "userId": 7, "title": "The Rise of Edge Computing", "body": "Deploying logic closer to the user is significantly reducing our latency. Highly recommend." },
-    { "id": 13, "userId": 8, "title": "Handling Large JSON Payloads", "body": "My API is slowing down with 5MB+ JSON files. Should I switch to Protobuf?" },
-    { "id": 14, "userId": 3, "title": "Favorite CSS Frameworks", "body": "Tailwind is still king for me, but I'm seeing a lot of buzz around Open Props lately." },
-    { "id": 15, "userId": 9, "title": "Linux Distro Hopping", "body": "I just switched from Ubuntu to Arch. The installation was a journey, but it's worth it." },
-    { "id": 16, "userId": 9, "title": "Career Advice for Seniors", "body": "How do you stay relevant as a developer after 10+ years in the industry?" },
-    { "id": 17, "userId": 3, "title": "Docker Container Optimization", "body": "Check out multi-stage builds if you want to shrink your image sizes significantly." },
-    { "id": 18, "userId": 4, "title": "Learning Rust in 2026", "body": "The borrow checker is still making me cry, but the performance gains are undeniable." },
-    { "id": 19, "userId": 6, "title": "Mobile App Development", "body": "Are we still doing Native or has Cross-Platform finally won the war?" },
-    { "id": 20, "userId": 5, "title": "Closing Thoughts", "body": "Thanks to everyone for the great discussions today. Looking forward to tomorrow!" }
-
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Welcome to the 2026 Tech Forum",
+      "body": "This is the first post on our new platform. We are excited to have you here!"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Best VS Code Extensions in 2026",
+      "body": "What are your must-have extensions this year? I'm looking for better AI integration."
+    },
+    {
+      "id": 3,
+      "userId": 5,
+      "title": "React vs. Vue: The Eternal Debate",
+      "body": "With the latest updates, which framework do you find more productive for rapid prototyping?"
+    },
+    {
+      "id": 4,
+      "userId": 10,
+      "title": "Dark Mode vs Light Mode",
+      "body": "Let's settle this once and for all. Which one is better for long coding sessions?"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "title": "JSON Schema Best Practices",
+      "body": "I'm struggling with nested references in my schemas. Any tips for keeping them clean?"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "My First Python Script",
+      "body": "I just wrote a script that automates my email sorting. It feels like magic!"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "title": "TypeScript 6.0 Features",
+      "body": "The new decorators are game-changers. Has anyone tried them in production yet?"
+    },
+    {
+      "id": 8,
+      "userId": 4,
+      "title": "Remote Work Trends",
+      "body": "Are companies still pushing for RTO (Return to Office) in your area, or is remote here to stay?"
+    },
+    {
+      "id": 9,
+      "userId": 8,
+      "title": "SQL vs NoSQL for Forum Data",
+      "body": "For a forum structure like this, would you prefer a relational database or a document store?"
+    },
+    {
+      "id": 10,
+      "userId": 9,
+      "title": "Coffee Recommendations",
+      "body": "What's fueling your late-night debugging sessions lately? I'm into light roasts."
+    },
+    {
+      "id": 11,
+      "userId": 7,
+      "title": "Cybersecurity for Beginners",
+      "body": "What are the first three things a junior dev should learn about web security?"
+    },
+    {
+      "id": 12,
+      "userId": 7,
+      "title": "The Rise of Edge Computing",
+      "body": "Deploying logic closer to the user is significantly reducing our latency. Highly recommend."
+    },
+    {
+      "id": 13,
+      "userId": 8,
+      "title": "Handling Large JSON Payloads",
+      "body": "My API is slowing down with 5MB+ JSON files. Should I switch to Protobuf?"
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "title": "Favorite CSS Frameworks",
+      "body": "Tailwind is still king for me, but I'm seeing a lot of buzz around Open Props lately."
+    },
+    {
+      "id": 15,
+      "userId": 9,
+      "title": "Linux Distro Hopping",
+      "body": "I just switched from Ubuntu to Arch. The installation was a journey, but it's worth it."
+    },
+    {
+      "id": 16,
+      "userId": 9,
+      "title": "Career Advice for Seniors",
+      "body": "How do you stay relevant as a developer after 10+ years in the industry?"
+    },
+    {
+      "id": 17,
+      "userId": 3,
+      "title": "Docker Container Optimization",
+      "body": "Check out multi-stage builds if you want to shrink your image sizes significantly."
+    },
+    {
+      "id": 18,
+      "userId": 4,
+      "title": "Learning Rust in 2026",
+      "body": "The borrow checker is still making me cry, but the performance gains are undeniable."
+    },
+    {
+      "id": 19,
+      "userId": 6,
+      "title": "Mobile App Development",
+      "body": "Are we still doing Native or has Cross-Platform finally won the war?"
+    },
+    {
+      "id": 20,
+      "userId": 5,
+      "title": "Closing Thoughts",
+      "body": "Thanks to everyone for the great discussions today. Looking forward to tomorrow!"
+    }
   ],
   "comments": [
-      { "postId": 1, "id": 1, "user_id": 2, "body": "Great to be here! Looking forward to the discussions." },
-      { "postId": 1, "id": 2, "user_id": 5, "body": "The new UI looks amazing. Well done!" },
-      {"postId": 1,"id": 1,"user_id": 2,"body": "Finally! I've been waiting for a dedicated tech space like this. Thanks for setting it up!"},
-      {"postId": 1,"id": 2,"user_id": 3,"body": "The UI feels incredibly snappy. Was this built with the new React 19 concurrent features?"},
-      {"postId": 1,"id": 3,"user_id": 4,"body": "Happy to be here! Looking forward to sharing some of my Rust projects with everyone."},
-      {"postId": 1,"id": 4,"user_id": 5,"body": "Is there a specific section for AI and LLM integration? That's what I'm most interested in."},
-        {
-          "postId": 1,
-          "id": 5,
-          "user_id": 6,
-          "body": "Checking in from London! Great to see a global community forming already."
-        },
-        {
-          "postId": 1,
-          "id": 6,
-          "user_id": 7,
-          "body": "The dark mode toggle is perfect. My eyes are already thanking you."
-        },
-        {
-          "postId": 1,
-          "id": 7,
-          "user_id": 8,
-          "body": "Just signed up! Can't wait to see how the forum evolves throughout 2026."
-        },
-        {
-          "postId": 1,
-          "id": 8,
-          "user_id": 9,
-          "body": "Is there an API available for this forum? I'd love to build a small mobile viewer for it."
-        },
-        {
-          "postId": 1,
-          "id": 9,
-          "user_id": 1,
-          "body": "I'm the original poster, just popping back in to say thanks for all the warm welcomes!"
-        },
-        {
-          "postId": 1,
-          "id": 10,
-          "user_id": 2,
-          "body": "Quick question: Are we allowed to post job listings in the general section or is there a separate area?"
-        },
-      {
-          "postId": 2,
-          "id": 11,
-          "user_id": 3,
-          "body": "You absolutely need 'Coplilot Sentient'. It doesn't just suggest code; it actually runs tests in the background and fixes its own bugs before you even see them."
-      },
-      {
-          "postId": 2,
-          "id": 12,
-          "user_id": 1,
-          "body": "I'm still a huge fan of 'LocalLens'. It lets you run small 3B parameter models locally on your machine so you can code without an internet connection and keep your data private."
-      },
-      {
-          "postId": 1,
-          "id": 13,
-          "user_id": 7,
-          "body": "Check out 'Refactor-Flow 2026'. It uses a multi-modal engine to look at your UI screenshots and automatically generate the corresponding Tailwind CSS classes."
-      },
-      {
-          "postId": 2,
-          "id": 14,
-          "user_id": 4,
-          "body": "Don't forget 'Git-Predict'. It analyzes your commit history and predicts which files you're likely to edit next, pre-loading them into your buffer."
-      },
-      {
-          "postId": 2,
-          "id": 15,
-          "user_id": 9,
-          "body": "I've been using 'Prompt-to-Architecture'. You describe a feature in the sidebar, and it generates the folder structure, boilerplates, and API routes for you."
-      },
+    {
+      "postId": 1,
+      "id": 1,
+      "user_id": 2,
+      "body": "Great to be here! Looking forward to the discussions."
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "user_id": 5,
+      "body": "The new UI looks amazing. Well done!"
+    },
+    {
+      "postId": 1,
+      "id": 1,
+      "user_id": 2,
+      "body": "Finally! I've been waiting for a dedicated tech space like this. Thanks for setting it up!"
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "user_id": 3,
+      "body": "The UI feels incredibly snappy. Was this built with the new React 19 concurrent features?"
+    },
+    {
+      "postId": 1,
+      "id": 3,
+      "user_id": 4,
+      "body": "Happy to be here! Looking forward to sharing some of my Rust projects with everyone."
+    },
+    {
+      "postId": 1,
+      "id": 4,
+      "user_id": 5,
+      "body": "Is there a specific section for AI and LLM integration? That's what I'm most interested in."
+    },
+    {
+      "postId": 1,
+      "id": 5,
+      "user_id": 6,
+      "body": "Checking in from London! Great to see a global community forming already."
+    },
+    {
+      "postId": 1,
+      "id": 6,
+      "user_id": 7,
+      "body": "The dark mode toggle is perfect. My eyes are already thanking you."
+    },
+    {
+      "postId": 1,
+      "id": 7,
+      "user_id": 8,
+      "body": "Just signed up! Can't wait to see how the forum evolves throughout 2026."
+    },
+    {
+      "postId": 1,
+      "id": 8,
+      "user_id": 9,
+      "body": "Is there an API available for this forum? I'd love to build a small mobile viewer for it."
+    },
+    {
+      "postId": 1,
+      "id": 9,
+      "user_id": 1,
+      "body": "I'm the original poster, just popping back in to say thanks for all the warm welcomes!"
+    },
+    {
+      "postId": 1,
+      "id": 10,
+      "user_id": 2,
+      "body": "Quick question: Are we allowed to post job listings in the general section or is there a separate area?"
+    },
+    {
+      "postId": 2,
+      "id": 11,
+      "user_id": 3,
+      "body": "You absolutely need 'Coplilot Sentient'. It doesn't just suggest code; it actually runs tests in the background and fixes its own bugs before you even see them."
+    },
+    {
+      "postId": 2,
+      "id": 12,
+      "user_id": 1,
+      "body": "I'm still a huge fan of 'LocalLens'. It lets you run small 3B parameter models locally on your machine so you can code without an internet connection and keep your data private."
+    },
+    {
+      "postId": 1,
+      "id": 13,
+      "user_id": 7,
+      "body": "Check out 'Refactor-Flow 2026'. It uses a multi-modal engine to look at your UI screenshots and automatically generate the corresponding Tailwind CSS classes."
+    },
+    {
+      "postId": 2,
+      "id": 14,
+      "user_id": 4,
+      "body": "Don't forget 'Git-Predict'. It analyzes your commit history and predicts which files you're likely to edit next, pre-loading them into your buffer."
+    },
+    {
+      "postId": 2,
+      "id": 15,
+      "user_id": 9,
+      "body": "I've been using 'Prompt-to-Architecture'. You describe a feature in the sidebar, and it generates the folder structure, boilerplates, and API routes for you."
+    },
     {
       "postId": 3,
       "id": 16,
@@ -113,187 +242,187 @@
       "user_id": 6,
       "body": "Honestly, for rapid prototyping in 2026, the answer is neither. Most of us are using AI-native meta-frameworks that compile down to whichever one the client prefers."
     },
-      {
-          "postId": 4,
-          "id": 19,
-          "user_id": 4,
-          "body": "Dark mode is the only way. I've been using high-contrast OLED themes and it's saved my vision during those midnight debugging marathons."
-      },
-      {
-          "postId": 4,
-          "id": 20,
-          "user_id": 7,
-          "body": "Unpopular opinion: Light mode is actually better for concentration during the day. Science shows it reduces astigmatism-related blurring!"
-      },
-      {
-          "postId": 4,
-          "id": 21,
-          "user_id": 2,
-          "body": "In 2026, why choose? I use 'Dynamic-Lume' which shifts the color temperature and theme based on the actual lux levels in my room."
-      },
-      {
-          "postId": 4,
-          "id": 22,
-          "user_id": 8,
-          "body": "Whatever you choose, just make sure you're using a semantic color palette. My eyes hurt looking at hard-coded hex values in light mode."
-      },
-      {
-          "postId": 5,
-          "id": 23,
-          "user_id": 3,
-          "body": "The best way to handle nested references is by using the '$defs' (definitions) keyword. It keeps your schema DRY and much easier to maintain as it grows."
-        },
-        {
-          "postId": 5,
-          "id": 24,
-          "user_id": 1,
-          "body": "Don't forget to set 'additionalProperties: false' in your production schemas. It's a lifesaver for catching typos in your JSON keys during testing."
-        },
-        {
-          "postId": 5,
-          "id": 25,
-          "user_id": 9,
-          "body": "I've been using TypeBox to generate my schemas lately. Writing raw JSON Schema is powerful, but having TypeScript type safety on top of it is a game changer."
-        },
-        {
-          "postId": 6,
-          "id": 26,
-          "user_id": 2,
-          "body": "Welcome to the world of automation! Once you realize you can script away the boring stuff, there is no going back."
-        },
-        {
-          "postId": 6,
-          "id": 27,
-          "user_id": 4,
-          "body": "Great job! Did you use the built-in 'imaplib' or a third-party library like 'yagmail'? The latter makes email handling so much cleaner."
-        },
-        {
-          "postId": 6,
-          "id": 28,
-          "user_id": 7,
-          "body": "That first 'Aha!' moment is the best. If you're looking for your next challenge, try adding a GUI to it using Streamlit!"
-        },
-        {
-          "postId": 6,
-          "id": 29,
-          "user_id": 3,
-          "body": "Pro tip: If you're running this as a cron job, make sure to use absolute paths for your files, otherwise the script might fail to find your data."
-        },
-        {
-          "postId": 6,
-          "id": 30,
-          "user_id": 5,
-          "body": "Automation is how most of us got started. Just be careful not to accidentally delete your inbox while testing! I learned that the hard way."
-        },
-        {
-          "postId": 6,
-          "id": 31,
-          "user_id": 8,
-          "body": "Are you using Python 3.14? The new pattern matching syntax would be perfect for sorting emails by subject lines."
-        },
-        {
-          "postId": 6,
-          "id": 32,
-          "user_id": 1,
-          "body": "Congrats on the win! Feel free to share the code snippet here; the community would love to help you optimize it."
-        },
-        {
-          "postId": 7,
-          "id": 33,
-          "user_id": 9,
-          "body": "The new 'isolated-modules' optimizations are saving us nearly 40% on build times. It finally feels as fast as Go!"
-        },
-        {
-          "postId": 7,
-          "id": 34,
-          "user_id": 3,
-          "body": "I’m still on the fence about the explicit-resource-management syntax. It’s powerful for DB connections, but it adds a lot of boilerplate."
-        },
-        {
-          "postId": 7,
-          "id": 35,
-          "user_id": 2,
-          "body": "The improved 'satisfies' operator for nested objects is a literal lifesaver. No more casting to 'any' just to get a complex config working."
-        },
-        {
-          "postId": 7,
-          "id": 36,
-          "user_id": 5,
-          "body": "Has anyone noticed how much better the LSP handles union types now? The autocompletion feels like it’s reading my mind."
-        },
-        {
-          "postId": 7,
-          "id": 37,
-          "user_id": 8,
-          "body": "I just migrated a legacy project to TS 6.0. The breaking changes were minimal, which is impressive given how many new features they packed in."
-        },
-        {
-          "postId": 8,
-          "id": 38,
-          "user_id": 4,
-          "body": "My company tried the 3-day RTO (Return to Office) policy, but half the senior dev team threatened to quit. We are now 'Remote-First' permanently."
-        },
-        {
-          "postId": 8,
-          "id": 39,
-          "user_id": 6,
-          "body": "I actually miss the office occasionally, but the 2-hour commute is a dealbreaker. Hybrid with a local co-working space is my sweet spot."
-        },
-        {
-          "postId": 8,
-          "id": 40,
-          "user_id": 1,
-          "body": "With the new VR workspace tech, 'Remote' doesn't feel lonely anymore. I can see my team's avatars and jump into a whiteboard session instantly."
-        },
-        {
-          "postId": 8,
-          "id": 41,
-          "user_id": 9,
-          "body": "The real trend for 2026 is 'Asynchronous Work'. It doesn't matter when you work, as long as the tickets move through the sprint."
-        },
-      {
+    {
+      "postId": 4,
+      "id": 19,
+      "user_id": 4,
+      "body": "Dark mode is the only way. I've been using high-contrast OLED themes and it's saved my vision during those midnight debugging marathons."
+    },
+    {
+      "postId": 4,
+      "id": 20,
+      "user_id": 7,
+      "body": "Unpopular opinion: Light mode is actually better for concentration during the day. Science shows it reduces astigmatism-related blurring!"
+    },
+    {
+      "postId": 4,
+      "id": 21,
+      "user_id": 2,
+      "body": "In 2026, why choose? I use 'Dynamic-Lume' which shifts the color temperature and theme based on the actual lux levels in my room."
+    },
+    {
+      "postId": 4,
+      "id": 22,
+      "user_id": 8,
+      "body": "Whatever you choose, just make sure you're using a semantic color palette. My eyes hurt looking at hard-coded hex values in light mode."
+    },
+    {
+      "postId": 5,
+      "id": 23,
+      "user_id": 3,
+      "body": "The best way to handle nested references is by using the '$defs' (definitions) keyword. It keeps your schema DRY and much easier to maintain as it grows."
+    },
+    {
+      "postId": 5,
+      "id": 24,
+      "user_id": 1,
+      "body": "Don't forget to set 'additionalProperties: false' in your production schemas. It's a lifesaver for catching typos in your JSON keys during testing."
+    },
+    {
+      "postId": 5,
+      "id": 25,
+      "user_id": 9,
+      "body": "I've been using TypeBox to generate my schemas lately. Writing raw JSON Schema is powerful, but having TypeScript type safety on top of it is a game changer."
+    },
+    {
+      "postId": 6,
+      "id": 26,
+      "user_id": 2,
+      "body": "Welcome to the world of automation! Once you realize you can script away the boring stuff, there is no going back."
+    },
+    {
+      "postId": 6,
+      "id": 27,
+      "user_id": 4,
+      "body": "Great job! Did you use the built-in 'imaplib' or a third-party library like 'yagmail'? The latter makes email handling so much cleaner."
+    },
+    {
+      "postId": 6,
+      "id": 28,
+      "user_id": 7,
+      "body": "That first 'Aha!' moment is the best. If you're looking for your next challenge, try adding a GUI to it using Streamlit!"
+    },
+    {
+      "postId": 6,
+      "id": 29,
+      "user_id": 3,
+      "body": "Pro tip: If you're running this as a cron job, make sure to use absolute paths for your files, otherwise the script might fail to find your data."
+    },
+    {
+      "postId": 6,
+      "id": 30,
+      "user_id": 5,
+      "body": "Automation is how most of us got started. Just be careful not to accidentally delete your inbox while testing! I learned that the hard way."
+    },
+    {
+      "postId": 6,
+      "id": 31,
+      "user_id": 8,
+      "body": "Are you using Python 3.14? The new pattern matching syntax would be perfect for sorting emails by subject lines."
+    },
+    {
+      "postId": 6,
+      "id": 32,
+      "user_id": 1,
+      "body": "Congrats on the win! Feel free to share the code snippet here; the community would love to help you optimize it."
+    },
+    {
+      "postId": 7,
+      "id": 33,
+      "user_id": 9,
+      "body": "The new 'isolated-modules' optimizations are saving us nearly 40% on build times. It finally feels as fast as Go!"
+    },
+    {
+      "postId": 7,
+      "id": 34,
+      "user_id": 3,
+      "body": "I’m still on the fence about the explicit-resource-management syntax. It’s powerful for DB connections, but it adds a lot of boilerplate."
+    },
+    {
+      "postId": 7,
+      "id": 35,
+      "user_id": 2,
+      "body": "The improved 'satisfies' operator for nested objects is a literal lifesaver. No more casting to 'any' just to get a complex config working."
+    },
+    {
+      "postId": 7,
+      "id": 36,
+      "user_id": 5,
+      "body": "Has anyone noticed how much better the LSP handles union types now? The autocompletion feels like it’s reading my mind."
+    },
+    {
+      "postId": 7,
+      "id": 37,
+      "user_id": 8,
+      "body": "I just migrated a legacy project to TS 6.0. The breaking changes were minimal, which is impressive given how many new features they packed in."
+    },
+    {
+      "postId": 8,
+      "id": 38,
+      "user_id": 4,
+      "body": "My company tried the 3-day RTO (Return to Office) policy, but half the senior dev team threatened to quit. We are now 'Remote-First' permanently."
+    },
+    {
+      "postId": 8,
+      "id": 39,
+      "user_id": 6,
+      "body": "I actually miss the office occasionally, but the 2-hour commute is a dealbreaker. Hybrid with a local co-working space is my sweet spot."
+    },
+    {
+      "postId": 8,
+      "id": 40,
+      "user_id": 1,
+      "body": "With the new VR workspace tech, 'Remote' doesn't feel lonely anymore. I can see my team's avatars and jump into a whiteboard session instantly."
+    },
+    {
+      "postId": 8,
+      "id": 41,
+      "user_id": 9,
+      "body": "The real trend for 2026 is 'Asynchronous Work'. It doesn't matter when you work, as long as the tickets move through the sprint."
+    },
+    {
       "postId": 9,
       "id": 42,
       "user_id": 3,
       "body": "For a forum, SQL is the only way to maintain relational integrity. You don't want orphan comments when a post gets deleted."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 43,
       "user_id": 5,
       "body": "I disagree. A document store like MongoDB is perfect for forums because you can store the entire post and its comments in one document for lightning-fast reads."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 44,
       "user_id": 2,
       "body": "Why not both? Use Postgres with JSONB columns. You get the strict relations for users and posts, but the flexibility of NoSQL for metadata."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 45,
       "user_id": 8,
       "body": "SQL is much easier to scale vertically. Once you get into complex joins for user permissions, NoSQL starts to become a nightmare to manage."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 46,
       "user_id": 1,
       "body": "In 2026, the real answer is probably a Graph database. Following 'who follows whom' and 'who liked what' is much more natural in Neo4j."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 47,
       "user_id": 7,
       "body": "Does anyone still use NoSQL for primary storage? I thought we all agreed it was just for caching and session data now."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 48,
       "user_id": 4,
       "body": "The 'Schema-less' argument for NoSQL is a trap. You just end up moving the schema logic into your application code instead of the DB."
-      },
-      {
+    },
+    {
       "postId": 9,
       "id": 49,
       "user_id": 9,
@@ -371,7 +500,7 @@
       "user_id": 3,
       "body": "Just use a managed service and focus on your code. The SQL vs NoSQL debate is mostly about preference these days anyway."
     }
-     ],
+  ],
   "albums": [
     {
       "userId": 1,
@@ -1050,84 +1179,425 @@
     }
   ],
   "todos": [
-    { "userId": 1, "id": 1, "title": "Finish API documentation for the forum", "completed": true },
-    { "userId": 1, "id": 2, "title": "Buy organic coffee beans", "completed": false },
-    { "userId": 1, "id": 3, "title": "Schedule team sync for Monday", "completed": true },
-    { "userId": 1, "id": 4, "title": "Update Docker images to latest version", "completed": false },
-    { "userId": 1, "id": 5, "title": "Review PR for the SQL migration", "completed": false },
-    { "userId": 1, "id": 6, "title": "Renew domain for personal blog", "completed": true },
-    { "userId": 1, "id": 7, "title": "Organize desk cables", "completed": false },
-  
-    { "userId": 2, "id": 8, "title": "Fix bug in VS Code extension", "completed": true },
-    { "userId": 2, "id": 9, "title": "Walk the dog", "completed": true },
-    { "userId": 2, "id": 10, "title": "Research React 19 transition features", "completed": false },
-    { "userId": 2, "id": 11, "title": "Order new ergonomic chair", "completed": false },
-    { "userId": 2, "id": 12, "title": "Call the dentist", "completed": true },
-    { "userId": 2, "id": 13, "title": "Backup local database", "completed": false },
-    { "userId": 2, "id": 14, "title": "Clean out the fridge", "completed": false },
-  
-    { "userId": 3, "id": 15, "title": "Refactor JSON Schema definitions", "completed": true },
-    { "userId": 3, "id": 16, "title": "Prepare presentation for Tech Conf", "completed": false },
-    { "userId": 3, "id": 17, "title": "Buy gift for mom's birthday", "completed": false },
-    { "userId": 3, "id": 18, "title": "Update LinkedIn profile", "completed": true },
-    { "userId": 3, "id": 19, "title": "Try out the new Bun runtime", "completed": true },
-    { "userId": 3, "id": 20, "title": "Wash the car", "completed": false },
-    { "userId": 3, "id": 21, "title": "Submit expense reports", "completed": false },
-  
-    { "userId": 4, "id": 22, "title": "Configure dark mode system settings", "completed": true },
-    { "userId": 4, "id": 23, "title": "Write unit tests for Auth module", "completed": false },
-    { "userId": 4, "id": 24, "title": "Gym workout - Leg day", "completed": true },
-    { "userId": 4, "id": 25, "title": "Read 20 pages of clean code book", "completed": false },
-    { "userId": 4, "id": 26, "title": "Pay electricity bill", "completed": true },
-    { "userId": 4, "id": 27, "title": "Optimize image assets", "completed": false },
-    { "userId": 4, "id": 28, "title": "Prepare dinner for guests", "completed": false },
-  
-    { "userId": 5, "id": 29, "title": "Finalize React vs Vue comparison article", "completed": true },
-    { "userId": 5, "id": 30, "title": "Water the plants", "completed": false },
-    { "userId": 5, "id": 31, "title": "Debug hydration errors", "completed": true },
-    { "userId": 5, "id": 32, "title": "Sign up for 5K run", "completed": false },
-    { "userId": 5, "id": 33, "title": "Update Windows/macOS", "completed": true },
-    { "userId": 5, "id": 34, "title": "Research Zod validation", "completed": false },
-    { "userId": 5, "id": 35, "title": "Pick up dry cleaning", "completed": false },
-  
-    { "userId": 6, "id": 36, "title": "Deploy Python script to AWS Lambda", "completed": true },
-    { "userId": 6, "id": 37, "title": "Grocery shopping", "completed": true },
-    { "userId": 6, "id": 38, "title": "Experiment with FastAPI", "completed": false },
-    { "userId": 6, "id": 39, "title": "Listen to Syntax.fm podcast", "completed": true },
-    { "userId": 6, "id": 40, "title": "Meditation - 15 mins", "completed": false },
-    { "userId": 6, "id": 41, "title": "Update Tailwind config", "completed": false },
-    { "userId": 6, "id": 42, "title": "Book flight for summer vacation", "completed": false },
-  
-    { "userId": 7, "id": 43, "title": "Check server logs for errors", "completed": true },
-    { "userId": 7, "id": 44, "title": "Mow the lawn", "completed": false },
-    { "userId": 7, "id": 45, "title": "Implement JWT rotation", "completed": true },
-    { "userId": 7, "id": 46, "title": "Learn 5 new Spanish phrases", "completed": false },
-    { "userId": 7, "id": 47, "title": "Take out the trash", "completed": true },
-    { "userId": 7, "id": 48, "title": "Write blog post about cybersecurity", "completed": false },
-    { "userId": 7, "id": 49, "title": "Upgrade Node.js version", "completed": false },
-  
-    { "userId": 8, "id": 50, "title": "Analyze SQL query performance", "completed": true },
-    { "userId": 8, "id": 51, "title": "Go for a 30-min bike ride", "completed": false },
-    { "userId": 8, "id": 52, "title": "Setup PostgreSQL cluster", "completed": true },
-    { "userId": 8, "id": 53, "title": "Call landlord regarding sink", "completed": false },
-    { "userId": 8, "id": 54, "title": "Review NoSQL vs SQL notes", "completed": true },
-    { "userId": 8, "id": 55, "title": "Clean the keyboard", "completed": false },
-    { "userId": 8, "id": 56, "title": "Update resume", "completed": false },
-  
-    { "userId": 9, "id": 57, "title": "Test TS 6.0 features in sandbox", "completed": true },
-    { "userId": 9, "id": 58, "title": "Check mail for tax documents", "completed": true },
-    { "userId": 9, "id": 59, "title": "Migrate to Turborepo", "completed": false },
-    { "userId": 9, "id": 60, "title": "Buy milk and eggs", "completed": true },
-    { "userId": 9, "id": 61, "title": "Watch Next.js Conf keynote", "completed": false },
-    { "userId": 9, "id": 62, "title": "Fix CSS z-index issues", "completed": false },
-    { "userId": 9, "id": 63, "title": "Organize digital photos", "completed": false },
-  
-    { "userId": 10, "id": 64, "title": "Set up forum admin panel", "completed": true },
-    { "userId": 10, "id": 65, "title": "Check battery on smoke detector", "completed": false },
-    { "userId": 10, "id": 66, "title": "Draft welcome email for new users", "completed": true },
-    { "userId": 10, "id": 67, "title": "Clean the coffee machine", "completed": true },
-    { "userId": 10, "id": 68, "title": "Integrate Stripe for payments", "completed": false },
-    { "userId": 10, "id": 69, "title": "Do the laundry", "completed": false },
-    { "userId": 10, "id": 70, "title": "Create 2026 goals list", "completed": true }
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Finish API documentation for the forum",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Buy organic coffee beans",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Schedule team sync for Monday",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Update Docker images to latest version",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Review PR for the SQL migration",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "Renew domain for personal blog",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "Organize desk cables",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 8,
+      "title": "Fix bug in VS Code extension",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 9,
+      "title": "Walk the dog",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 10,
+      "title": "Research React 19 transition features",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 11,
+      "title": "Order new ergonomic chair",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 12,
+      "title": "Call the dentist",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 13,
+      "title": "Backup local database",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 14,
+      "title": "Clean out the fridge",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 15,
+      "title": "Refactor JSON Schema definitions",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 16,
+      "title": "Prepare presentation for Tech Conf",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 17,
+      "title": "Buy gift for mom's birthday",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 18,
+      "title": "Update LinkedIn profile",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 19,
+      "title": "Try out the new Bun runtime",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": 20,
+      "title": "Wash the car",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": 21,
+      "title": "Submit expense reports",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 22,
+      "title": "Configure dark mode system settings",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 23,
+      "title": "Write unit tests for Auth module",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 24,
+      "title": "Gym workout - Leg day",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 25,
+      "title": "Read 20 pages of clean code book",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 26,
+      "title": "Pay electricity bill",
+      "completed": true
+    },
+    {
+      "userId": 4,
+      "id": 27,
+      "title": "Optimize image assets",
+      "completed": false
+    },
+    {
+      "userId": 4,
+      "id": 28,
+      "title": "Prepare dinner for guests",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 29,
+      "title": "Finalize React vs Vue comparison article",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 30,
+      "title": "Water the plants",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 31,
+      "title": "Debug hydration errors",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 32,
+      "title": "Sign up for 5K run",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 33,
+      "title": "Update Windows/macOS",
+      "completed": true
+    },
+    {
+      "userId": 5,
+      "id": 34,
+      "title": "Research Zod validation",
+      "completed": false
+    },
+    {
+      "userId": 5,
+      "id": 35,
+      "title": "Pick up dry cleaning",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 36,
+      "title": "Deploy Python script to AWS Lambda",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 37,
+      "title": "Grocery shopping",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 38,
+      "title": "Experiment with FastAPI",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 39,
+      "title": "Listen to Syntax.fm podcast",
+      "completed": true
+    },
+    {
+      "userId": 6,
+      "id": 40,
+      "title": "Meditation - 15 mins",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 41,
+      "title": "Update Tailwind config",
+      "completed": false
+    },
+    {
+      "userId": 6,
+      "id": 42,
+      "title": "Book flight for summer vacation",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 43,
+      "title": "Check server logs for errors",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 44,
+      "title": "Mow the lawn",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 45,
+      "title": "Implement JWT rotation",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 46,
+      "title": "Learn 5 new Spanish phrases",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 47,
+      "title": "Take out the trash",
+      "completed": true
+    },
+    {
+      "userId": 7,
+      "id": 48,
+      "title": "Write blog post about cybersecurity",
+      "completed": false
+    },
+    {
+      "userId": 7,
+      "id": 49,
+      "title": "Upgrade Node.js version",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 50,
+      "title": "Analyze SQL query performance",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 51,
+      "title": "Go for a 30-min bike ride",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 52,
+      "title": "Setup PostgreSQL cluster",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 53,
+      "title": "Call landlord regarding sink",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 54,
+      "title": "Review NoSQL vs SQL notes",
+      "completed": true
+    },
+    {
+      "userId": 8,
+      "id": 55,
+      "title": "Clean the keyboard",
+      "completed": false
+    },
+    {
+      "userId": 8,
+      "id": 56,
+      "title": "Update resume",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 57,
+      "title": "Test TS 6.0 features in sandbox",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 58,
+      "title": "Check mail for tax documents",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 59,
+      "title": "Migrate to Turborepo",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 60,
+      "title": "Buy milk and eggs",
+      "completed": true
+    },
+    {
+      "userId": 9,
+      "id": 61,
+      "title": "Watch Next.js Conf keynote",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 62,
+      "title": "Fix CSS z-index issues",
+      "completed": false
+    },
+    {
+      "userId": 9,
+      "id": 63,
+      "title": "Organize digital photos",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 64,
+      "title": "Set up forum admin panel",
+      "completed": true
+    },
+    {
+      "userId": 10,
+      "id": 65,
+      "title": "Check battery on smoke detector",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 66,
+      "title": "Draft welcome email for new users",
+      "completed": true
+    },
+    {
+      "userId": 10,
+      "id": 67,
+      "title": "Clean the coffee machine",
+      "completed": true
+    },
+    {
+      "userId": 10,
+      "id": 68,
+      "title": "Integrate Stripe for payments",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 69,
+      "title": "Do the laundry",
+      "completed": false
+    },
+    {
+      "userId": 10,
+      "id": 70,
+      "title": "Create 2026 goals list",
+      "completed": true
+    }
   ]
 }
