@@ -11,7 +11,7 @@ RUN npm install -g json-server
 COPY db.json .
 
 # Exponera porten
-EXPOSE 3000
+EXPOSE 32768
 
 # Viktigt: Använd 0.0.0.0 för att containern ska svara på anrop utifrån
 CMD ["json-server", "--watch", "db.json", "--host", "0.0.0.0"]
